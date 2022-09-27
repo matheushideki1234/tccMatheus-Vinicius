@@ -112,6 +112,16 @@ nav > a {
     color: white;
   }
 
+  .filmes-carrousel {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+  }
+  .imagem-filmes {
+    width: 150px;
+    margin-right: 40px;
+    box-sizing: border-box;
+  }
 footer {
     background-color: rgb(173, 158, 158);
     color: white;
