@@ -159,6 +159,12 @@ footer a:hover {
  text-decoration: underline;
 
 }
+.footer {
+  padding-top: 50px;
+  padding-right: 900px;
+  text-decoration: none;
+  text-transform: none;
+}
 
 .carouselOfImages
 {
