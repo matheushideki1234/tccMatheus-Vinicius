@@ -64,50 +64,6 @@ nav > a {
   font-weight: bold;
   transition-duration: 0.5s;
 }
-.search-box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-   transform: translate(-50%, -50%);
-   background: rgba(163, 135, 135, 0.534);
-   height: 20px;
-   padding: 10px;
-   border-radius: 40px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-  }
-  .search-txt {
-    border: none;
-    background: none;
-    outline: none;
-    padding: 0;
-    color: white;
-    font-size: 12px;
-    line-height: 20px;
-    width: 0;
-    transition: 0.2s;
-  }
-
- ::-webkit-input-placeholder {
-    color: white;
-    font-weight: bold;
-  }
-  .search-btn {
-   width: 25px;
-   height: 25px;
-   border-radius: 45%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   transition: .5s;
-  }
-
-  .search-box:hover > .search-txt {
-    width: 220px;
-    padding: 0.6px;
-  }
-
   .criarconta {
     height: 30px;
     padding-right: 10px;
@@ -124,7 +80,7 @@ nav > a {
     padding-right: 10px;
     padding-left: 10px;
     font-weight: bold;
-    background-color: #282D2D;;
+    background-color: #282D2D;
     color: white;
     border: 2px solid white; /* Green */
     border-radius: 6px;
@@ -142,11 +98,11 @@ nav > a {
     box-sizing: border-box;
   }
 footer {
-    background-color: rgb(173, 158, 158);
+    background-color: #282D2D;
     color: white;
-    text-align: center;
     font-size: 0.8;
-    padding: 5px;
+    left: 50px;
+    bottom: 50px;
 }
 
 footer > p > a {
@@ -158,6 +114,13 @@ font-weight: bolder;
 footer a:hover {
  text-decoration: underline;
 
+}
+
+.footer {
+  padding-top: 50px;
+  padding-right: 900px;
+  text-decoration: none;
+  text-transform: none;
 }
 
 .carouselOfImages

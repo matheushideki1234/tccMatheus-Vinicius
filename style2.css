@@ -4,8 +4,13 @@
 * {
     margin: 0%;
     padding: 0%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    letter-spacing: 0px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
 }
-
 body {
     background-color:#282D2D;
 }
@@ -21,3 +26,47 @@ h1 {
     font-size: 4em;
     text-align: center;
 }
+.teladelogin {
+    position: absolute;
+    width: 577px;
+    height: 500px;
+    left: 431px;
+    top: 286px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+h2 {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    right: 200px;
+     color: #282D2D;
+     text-align: center;
+     top: 30px;
+     font-family: 'Roboto';
+     font-style: normal;
+     padding-left: 5px;
+}
+
+h3 {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    left: 70px;
+    color: #757575;
+}
+#text1 {
+border-radius: 5px;
+height: 40px;
+}
+.google {
+ height: 40px;
+ border-radius: 5px;
+ 
+}
+.cadastrado {
+   bottom: 100px;
+}
+
+
