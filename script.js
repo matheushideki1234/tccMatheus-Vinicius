@@ -30,7 +30,6 @@ $imagesCarousel.on('scroll.flickity', function() {
   
   
   
-  
 $(".carouselImage img").click(function() { 
   var $this = $(this);
   var imageID = $this.attr('data-tab');
